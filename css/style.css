@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #00f0ff;
+}
+
+.find {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.find i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.content {
+    position: relative;
+    height: 665px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slideshow-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mySlides {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-1 h2 {
+    color: #00f0ff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.content-1 h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.content-1 p {
+    font-size: 16px;
+}
+
+
